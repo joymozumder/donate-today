@@ -24,11 +24,18 @@ h2{
     font-size: 45px;
     font-weight: 700;
 }
+h4{
+    font-size: 24px;
+    font-weight: 600;
+}
 
 p{
     font-size: 18px;
 }
 
+section{
+    margin-bottom: 7%;
+}
 .link-button{
     text-decoration: none;
     background: #FF5959;
@@ -42,17 +49,20 @@ p{
     margin-bottom: 5%;
 }
 
-.donate-today{
-    margin-top: 7%;
+.text-align-center{
     text-align: center;
 }
 
-.donate-today h2{
-    margin-bottom: 3%;
-}
+
 .description{
     width: 40%;
     margin: 0 auto;
+}
+.description h2{
+    margin-bottom: 3%;
+}
+.description p{
+    color: #707070;
 }
 .amount-div{
     display: flex;
@@ -62,7 +72,7 @@ p{
 
 .amount-rectangle{
     width: 135px;
-    padding: 48px 0;
+    padding: 42px 0;
     margin: 10px;
     text-align: center;
     background-color: #FAFAFA;
@@ -79,7 +89,7 @@ p{
 }
 
 .other-amount{
-    width: 48%;
+    width: 56%;
     margin: 0 auto;
 }
 .other-amount input{
@@ -92,3 +102,33 @@ p{
     padding: 10px 0;
     margin-bottom: 5%;
 }
+
+.plan-div{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.plan-card{
+    width: 20%;
+    margin: 20px;
+    padding: 63px 23px;
+    border-radius: 5px;
+}
+.plan-card h4{
+    padding: 5% 0;
+}
+.plan-card p{
+    color: #707070;
+}
+
+#food-plan{
+    background-color:  #4F9DA61A;
+}
+#shelter-plan{
+    background-color:  #FF59591A;
+}
+#education-plan{
+    background-color:  #FFF4D6;
+}
+
