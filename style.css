@@ -63,11 +63,11 @@ section{
 }
 .description p{
     color: #707070;
+    margin-bottom: 8%;
 }
 .amount-div{
     display: flex;
     justify-content: center;
-    margin: 2% 0;
 }
 
 .amount-rectangle{
@@ -89,7 +89,7 @@ section{
 }
 
 .other-amount{
-    width: 56%;
+    width: 48%;
     margin: 0 auto;
 }
 .other-amount input{
@@ -105,7 +105,6 @@ section{
 
 .plan-div{
     display: flex;
-    margin-top: 25px;
     justify-content: center;
 }
 
@@ -148,3 +147,34 @@ footer p{
     padding: 10px 0;
 }
 
+.subscribe{
+    background-color: red;
+    width: 51%;
+    padding:  75px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4D6;
+}
+
+.subscribe-form input{
+    background-color: #D9D9D9;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px 0 0 5px;
+    height: 48px;
+    width: 258px;
+    padding-left: 17px;
+}
+.subscribe-form button{
+    height: 48px;
+    width: 157px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    background-color: #FF5959;
+    color: white;
+}
