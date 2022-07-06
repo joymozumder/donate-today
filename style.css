@@ -132,3 +132,19 @@ section{
     background-color:  #FFF4D6;
 }
 
+footer{
+    background-color: black;
+    text-align: center;
+    height: 170px;
+}
+footer h3{
+    font-size: 36px;
+    color: #FF5959;
+    padding: 40px 0 20px;
+}
+footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+    padding: 10px 0;
+}
+
