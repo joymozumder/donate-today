@@ -184,3 +184,27 @@ footer p{
     background-color: #FF5959;
     color: white;
 }
+
+.volunteer-container{
+    display: flex;
+    justify-content: center;
+}
+.volunteer-card{
+    width:15%;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    background-color:  #1d62691a;
+    border-radius: 10px;
+}
+.volunteer-card img{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 5px;
+}
+.volunteer-card p{
+    font-size: 14px;
+    padding: 5px;
+    color: #b48606;
+}
