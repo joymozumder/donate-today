@@ -141,11 +141,13 @@ footer{
     background-color: black;
     text-align: center;
     height: 170px;
+    padding: 40px 0 20px;
+    font-size: 18px;
 }
 footer h3{
     font-size: 36px;
     color: #FF5959;
-    padding: 40px 0 20px;
+    
 }
 footer p{
     font-size: 14px;
@@ -207,4 +209,13 @@ footer p{
     font-size: 14px;
     padding: 5px;
     color: #b48606;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.footer-container div{
+    width: 30%;
 }
